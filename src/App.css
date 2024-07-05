@@ -1,0 +1,64 @@
+body {
+  background-color: #111;
+  color: #ddd;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.status-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.network-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.connectwallet, .disconnectwallet {
+  background-color: #444;
+  color: #ddd;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.connectwallet:hover, .disconnectwallet:hover {
+  background-color: #555;
+}
+
+.info-section {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Added to vertically center align text */
+  padding: 10px 0;
+  border-bottom: 1px solid #444;
+  overflow: hidden; /* Added to handle overflow */
+}
+
+.info-row p {
+  margin: 0;
+  overflow: hidden; /* Added to handle overflow */
+  text-overflow: ellipsis; /* Added to handle overflow */
+  white-space: nowrap; /* Added to handle overflow */
+}
